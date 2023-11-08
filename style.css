@@ -6,7 +6,7 @@
 }
 
 body {
-    height: 100dvh;
+  height: 100dvh;
 }
 img {
   width: 100%;
@@ -18,12 +18,11 @@ img {
 header {
   width: 100%;
   background-color: #ccc;
-  padding: .7rem 0;
+  padding: 0.5rem 0;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
-  gap: 0.8rem;
 }
 
 header span {
@@ -33,6 +32,10 @@ header input {
   min-height: 30px;
   width: 250px;
 }
+
+header input::placeholder {
+  text-align: center;
+}
 header .icons {
   flex-wrap: wrap;
 }
@@ -40,10 +43,17 @@ header .icons {
 /* img container */
 .container-img {
   width: 100%;
-  margin: .6rem auto;
+  margin: 0.2rem auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: .5rem;
+  gap: 0.5rem;
+}
+
+.container-img h3 {
+    background-color: #333;
+    color: #fff;
+    padding: .2rem 1rem;
+    border-radius: 5px;
 }
