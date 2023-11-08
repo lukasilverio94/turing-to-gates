@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+
+body {
+    height: 100dvh;
+}
+img {
+  width: 100%;
+  max-width: 800px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+header {
+  width: 100%;
+  background-color: #ccc;
+  padding: .7rem 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+header span {
+  font-weight: 700;
+}
+header input {
+  min-height: 30px;
+  width: 250px;
+}
+header .icons {
+  flex-wrap: wrap;
+}
+
+/* img container */
+.container-img {
+  width: 100%;
+  margin: .6rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+}
